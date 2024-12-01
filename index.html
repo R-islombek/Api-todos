@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>API yordamida CRUD loyihasi</h1>
+
+    <!-- Postlarni ko'rsatish uchun -->
+    <h2>Postlar:</h2>
+    <div id="post-list"></div>
+  
+    <!-- Yangi post qo'shish formasi -->
+    <h3>Yangi Post Qo'shish:</h3>
+    <form id="post-form">
+      <input type="text" id="title" placeholder="Post sarlavhasi" required><br>
+      <textarea id="body" placeholder="Post matni" required></textarea><br>
+      <button type="submit">Postni qo'shish</button>
+    </form>
+  
+    <!-- Yangi postni yangilash formasi -->
+    <h3>Postni yangilash:</h3>
+    <form id="update-form">
+      <input type="text" id="update-title" placeholder="Yangilangan sarlavha" required><br>
+      <textarea id="update-body" placeholder="Yangilangan matn" required></textarea><br>
+      <button type="submit">Yangilash</button>
+    </form>
+  
+     <script src="./js/main.js"></script>    
+</body>
+</html>
